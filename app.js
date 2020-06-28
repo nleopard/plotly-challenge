@@ -2,7 +2,7 @@ function init() {
 
     var dropDown = d3.select("#selDataset");
 
-    d3.json("../StarterCode/samples.json").then(function(data) {
+    d3.json("samples.json").then(function(data) {
         console.log(data);
         //find the data for patient id
         var dataNames = data.names;
